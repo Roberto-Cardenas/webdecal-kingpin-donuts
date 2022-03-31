@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<title>King Pin - Menu</title>
+    	<link rel="icon" href="assets/img/kingpin-icon.png" type="image/png">
+		<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
+		<link rel = "stylesheet" href = "assets/css/style.css">
+	</head>
+	<body>
+		<nav class = "flex-row flex-justify-space-between flex-align-center background-gray-primary">
+			<a href = "index.html" id = "logo" class = "flex-row flex-align-center">
+				<img src = "assets/img/kingpin-icon.png" />
+				<h3>King Pin</h3>
+			</a>
+			<div class = "flex-row">
+				<h3><a href = "menu.html">Menu</a></h3>
+				<h3><a href = "story.html">Story</a></h3>
+				<h3><a href = "contact.html">Contact</a></h3>
+			</div>
+		</nav>
+		<main>
+			<div id = "img-div">
+				<div id = "img-panel-div" class = "flex-column flex-justify-space-around flex-align start">
+					<div class = "flex-column flex-align-start">
+						<h2>2521 Durant Ave</h2>
+						<h2>Berkeley,CA 94704</h2>
+					</div>
+					<h2>#510-843-6688</h2>
+					<h2>7am-3pm Every Day</h2>
+				</div>
+				<img id = "contact-img" src = "assets/img/shop-shot.jpg"/>
+			</div>
+			<div id = "contact-form-div">
+				<h2 class = "text-color-gray-primary">Contact Us</h2>
+				<div id = "contact-form" class = "flex-column flex-align-start">
+					<input type = "email" placeholder = "example@kingpin.com"/>
+					<input type = "text" placeholder = "Name"/>
+					<textarea placeholder = "Questions or comments?"></textarea>
+					<div class = "flex-row flex-align-center">
+						<input id = "checkbox" type = "checkbox">
+						<label for = "checkbox">Subscribe</label>
+					</div>
+					<input class = "background-pink-primary" type = "submit" value = "Submit" />
+				</div>
+			</div>
+		</main>
+	</body>
+</html>
